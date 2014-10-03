@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER',  'http://localhost/www-opencart-test/');
+define('HTTP_SERVER',  'http://localhost/www-opencart-alcohol/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/www-opencart-test/');
+define('HTTPS_SERVER', 'http://localhost/www-opencart-alcohol/');
 
 // DIR
 define('DIR_APPLICATION',  dirname(__FILE__) . '/catalog/');

@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER',   'http://localhost/www-opencart-test/admin/');
-define('HTTP_CATALOG',  'http://localhost/www-opencart-test/');
+define('HTTP_SERVER',   'http://localhost/www-opencart-alcohol/admin/');
+define('HTTP_CATALOG',  'http://localhost/www-opencart-alcohol/');
 
 // HTTPS
-define('HTTPS_SERVER',  'http://localhost/www-opencart-test/admin/');
-define('HTTPS_CATALOG', 'http://localhost/www-opencart-test/');
+define('HTTPS_SERVER',  'http://localhost/www-opencart-alcohol/admin/');
+define('HTTPS_CATALOG', 'http://localhost/www-opencart-alcohol/');
 
 // DIR
 define('DIR_APPLICATION',  dirname(dirname(__FILE__)) . '/admin/');
