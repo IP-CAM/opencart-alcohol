@@ -1,30 +1,30 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/www-opencart-test/admin/');
-define('HTTP_CATALOG', 'http://localhost/www-opencart-test/');
+define('HTTP_SERVER',   'http://localhost/www-opencart-test/admin/');
+define('HTTP_CATALOG',  'http://localhost/www-opencart-test/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/www-opencart-test/admin/');
+define('HTTPS_SERVER',  'http://localhost/www-opencart-test/admin/');
 define('HTTPS_CATALOG', 'http://localhost/www-opencart-test/');
 
 // DIR
-define('DIR_APPLICATION', '/var/www/html/www-opencart-test/admin/');
-define('DIR_SYSTEM', '/var/www/html/www-opencart-test/system/');
-define('DIR_LANGUAGE', '/var/www/html/www-opencart-test/admin/language/');
-define('DIR_TEMPLATE', '/var/www/html/www-opencart-test/admin/view/template/');
-define('DIR_CONFIG', '/var/www/html/www-opencart-test/system/config/');
-define('DIR_IMAGE', '/var/www/html/www-opencart-test/image/');
-define('DIR_CACHE', '/var/www/html/www-opencart-test/system/cache/');
-define('DIR_DOWNLOAD', '/var/www/html/www-opencart-test/system/download/');
-define('DIR_UPLOAD', '/var/www/html/www-opencart-test/system/upload/');
-define('DIR_LOGS', '/var/www/html/www-opencart-test/system/logs/');
-define('DIR_MODIFICATION', '/var/www/html/www-opencart-test/system/modification/');
-define('DIR_CATALOG', '/var/www/html/www-opencart-test/catalog/');
+define('DIR_APPLICATION',  dirname(__FILE__) . '/admin/');
+define('DIR_SYSTEM',       dirname(__FILE__) . '/system/');
+define('DIR_LANGUAGE',     dirname(__FILE__) . '/admin/language/');
+define('DIR_TEMPLATE',     dirname(__FILE__) . '/admin/view/template/');
+define('DIR_CONFIG',       dirname(__FILE__) . '/system/config/');
+define('DIR_IMAGE',        dirname(__FILE__) . '/image/');
+define('DIR_CACHE',        dirname(__FILE__) . '/system/cache/');
+define('DIR_DOWNLOAD',     dirname(__FILE__) . '/system/download/');
+define('DIR_UPLOAD',       dirname(__FILE__) . '/system/upload/');
+define('DIR_LOGS',         dirname(__FILE__) . '/system/logs/');
+define('DIR_MODIFICATION', dirname(__FILE__) . '/system/modification/');
+define('DIR_CATALOG',      dirname(__FILE__) . '/catalog/');
 
 // DB
-define('DB_DRIVER', 'mysqli');
+define('DB_DRIVER',   'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '200ok');
 define('DB_DATABASE', 'opencart-test');
-define('DB_PREFIX', 'oc_');
+define('DB_PREFIX',   'oc_');
